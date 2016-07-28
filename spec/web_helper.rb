@@ -18,7 +18,6 @@ end
 
 def no_email_sign_up
   visit '/users/new'
-  # fill_in :email, with: ''
   expect(page.status_code).to eq(200)
   fill_in :password, with: 'Isuck'
   fill_in :password_confirmation, with: 'Isuck'
