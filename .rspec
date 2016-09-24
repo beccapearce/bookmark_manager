@@ -1,2 +1,8 @@
+<<<<<<< HEAD
 -fd
 --require spec_helper
+=======
+--require spec_helper
+--color
+--format documentation
+>>>>>>> 3268726944d564220f1b3d6705e2b18296fe300a
