@@ -2,8 +2,9 @@
 <ul id='links'>
     <% @links.each do |link| %>
       <li>
-        <a href='<%= link.url %>'><%= link.title %></a>
-        URL: <a href='<%= link.url %>'> Title: <%= link.title %></a>
+        <a href="https://<%= link.url %>"><%= link.title %></a>
       </li>
       <% end %>
   </ul>
+  <br>
+<input type="submit" value="Add a new link">

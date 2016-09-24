@@ -1,0 +1,14 @@
+<h1> Please sign up, mate </h1>
+
+<form action='/users' method='post'>
+  <label for='email'>
+    Email: <input name='email' type='text' value='<%= @user.email %>' required>
+  </label>
+  <label for='password'>
+    Password: <input name='password' placeholder='password' type='password'>
+  </label>
+  <label for='password_confirmation'>
+    Re-enter password: <input name='password_confirmation' placeholder='confirm password' type='password'>
+  </label>
+  <input type='submit' value='Sign up'>
+</form>
